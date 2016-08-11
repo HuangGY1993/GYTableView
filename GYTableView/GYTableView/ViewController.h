@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GYTableView.h"
 
 @interface ViewController : UIViewController
 

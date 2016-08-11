@@ -13,7 +13,6 @@
 		69A3FCD51D5C138D00B52F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A3FCD31D5C138D00B52F08 /* Main.storyboard */; };
 		69A3FCD71D5C138D00B52F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A3FCD61D5C138D00B52F08 /* Assets.xcassets */; };
 		69A3FCDA1D5C138D00B52F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A3FCD81D5C138D00B52F08 /* LaunchScreen.storyboard */; };
-		69A3FCEA1D5C1AAA00B52F08 /* GYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A3FCE91D5C1AAA00B52F08 /* GYTableView.m */; };
 		69A3FCEC1D5C2DC100B52F08 /* clickLoop.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A3FCEB1D5C2DC100B52F08 /* clickLoop.png */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,6 @@
 		69A3FCD61D5C138D00B52F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69A3FCD91D5C138D00B52F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69A3FCDB1D5C138D00B52F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69A3FCE81D5C1AAA00B52F08 /* GYTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYTableView.h; sourceTree = "<group>"; };
-		69A3FCE91D5C1AAA00B52F08 /* GYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYTableView.m; sourceTree = "<group>"; };
 		69A3FCEB1D5C2DC100B52F08 /* clickLoop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clickLoop.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -73,8 +70,6 @@
 				69A3FCD81D5C138D00B52F08 /* LaunchScreen.storyboard */,
 				69A3FCDB1D5C138D00B52F08 /* Info.plist */,
 				69A3FCCA1D5C138D00B52F08 /* Supporting Files */,
-				69A3FCE81D5C1AAA00B52F08 /* GYTableView.h */,
-				69A3FCE91D5C1AAA00B52F08 /* GYTableView.m */,
 			);
 			path = GYTableView;
 			sourceTree = "<group>";
@@ -161,7 +156,6 @@
 				69A3FCD21D5C138D00B52F08 /* ViewController.m in Sources */,
 				69A3FCCF1D5C138D00B52F08 /* AppDelegate.m in Sources */,
 				69A3FCCC1D5C138D00B52F08 /* main.m in Sources */,
-				69A3FCEA1D5C1AAA00B52F08 /* GYTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +306,7 @@
 				69A3FCE01D5C138D00B52F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
